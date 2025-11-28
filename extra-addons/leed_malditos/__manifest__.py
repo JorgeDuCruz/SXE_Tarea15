@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "modulo_triste",
+    'name': "leed_malditos",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Módulo para contar las veces que un profesor manda leer a los alumnos",
 
     'description': """
-Long description of module's purpose
+Si esta es la descripción.
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Daniel Castelao",
+    'website': "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DdQw4w9WgXcQ&ved=2ahUKEwjKh7KD-5SRAxUJ1wIHHRrAEP4QwqsBegQIEhAB&usg=AOvVaw0aHtehaphMhOCAkCydRLZU",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -22,7 +22,7 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],

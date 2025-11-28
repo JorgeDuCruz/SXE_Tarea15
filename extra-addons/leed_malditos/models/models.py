@@ -3,9 +3,9 @@
 # from odoo import models, fields, api
 
 
-# class modulo_triste(models.Model):
-#     _name = 'modulo_triste.modulo_triste'
-#     _description = 'modulo_triste.modulo_triste'
+# class leed_malditos(models.Model):
+#     _name = 'leed_malditos.leed_malditos'
+#     _description = 'leed_malditos.leed_malditos'
 
 #     name = fields.Char()
 #     value = fields.Integer()
