@@ -7,7 +7,7 @@ class cafe_al_fallo(models.Model):
     _name = 'cafe_al_fallo.cafe_al_fallo'
     _description = 'Lista del nivel de sueno del alumno y su bebida recomendada'
 
-    nombre = fields.Char()
+    Alumno = fields.Char(required = True)
     nivel_sueno = fields.Integer(
         string='Nivel de Sueno (1-10)',
         required=True,
@@ -20,6 +20,13 @@ class cafe_al_fallo(models.Model):
     def _calcularBebida(self):
         for record in self:
             nivel = record.nivel_sueno
+
+            if nivel<1:
+                record.nivel_sueno = 1
+                nivel = 1
+            elif nivel>10:
+                record.nivel_sueno = 10
+                nivel = 10
 
             if nivel >= 1 and nivel <= 3:
                 record.bebida_recomendada = "Café con leche"

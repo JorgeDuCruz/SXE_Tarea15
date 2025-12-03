@@ -7,7 +7,7 @@
       <field name="model">cafe_al_fallo.cafe_al_fallo</field>
       <field name="arch" type="xml">
         <list>
-          <field name="nombre"/>
+          <field name="Alumno"/>
           <field name="nivel_sueno"/>
           <field name="bebida_recomendada"/>
         </list>
