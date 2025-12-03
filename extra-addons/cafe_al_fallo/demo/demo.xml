@@ -3,7 +3,7 @@
 
           <record id="object0" model="cafe_al_fallo.cafe_al_fallo">
             <field name="name">Object 0</field>
-            <field name="value">0</field>
+            <field name="value">1</field>
           </record>
 
           <record id="object1" model="cafe_al_fallo.cafe_al_fallo">
@@ -13,17 +13,17 @@
 
           <record id="object2" model="cafe_al_fallo.cafe_al_fallo">
             <field name="name">Object 2</field>
-            <field name="value">20</field>
+            <field name="value">7</field>
           </record>
 
           <record id="object3" model="cafe_al_fallo.cafe_al_fallo">
             <field name="name">Object 3</field>
-            <field name="value">30</field>
+            <field name="value">5</field>
           </record>
 
           <record id="object4" model="cafe_al_fallo.cafe_al_fallo">
             <field name="name">Object 4</field>
-            <field name="value">40</field>
+            <field name="value">2</field>
           </record>
 
     </data>
